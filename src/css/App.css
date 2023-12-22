@@ -237,7 +237,7 @@
 
 	.screen-background {
 		height: 100vh;
-		width: 80vw;
+		width: 100vw;
 		margin: 0;
 	}
 
@@ -275,5 +275,13 @@
 	.opcion-cuatro {
 		font-size: .75rem;
 	}
+
+	.contact-uno-p,
+.contact-dos-p,
+.contact-tres-p,
+.contact-cuatro-p,
+.contact-question {
+	font-size: .75rem;
+}
 
 }
