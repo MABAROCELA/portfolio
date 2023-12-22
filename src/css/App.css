@@ -1,0 +1,226 @@
+.screen-background {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+}
+
+.screen-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 25% 25% 25% 25%;
+	background-color: white;
+	width: 65%;
+	height: 100%;
+}
+
+.name-and-date {
+	margin: 3%;
+	background-color: #FF55FF;
+	grid-column: 1/2;
+	border: none;
+	border-radius: .9375rem;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 70% 30%;
+	box-shadow: 5px 5px black;
+
+}
+
+.name {
+	background-color: black;
+	margin: .5rem;
+	border-radius: .9375rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.name-p {
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+	padding-bottom: .9375rem;
+}
+
+.date {
+	background-color: white;
+	margin: .5rem;
+	border-radius: .9375rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.date-p {
+	text-align: center;
+	font-size: 2.5rem;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	text-wrap: wrap;
+}
+
+@media (min-width: 825px) and (max-width: 1100px) {
+	.date-p {
+		font-size: 1.875rem;
+	}
+}
+
+@media (max-width: 825px) {
+
+	.date-p,
+	.name-p {
+
+		font-size: 1.25rem;
+
+	}
+}
+
+.foto-container {
+	margin: 3%;
+	border-radius: .9375rem;
+	border: .25rem solid black;
+	grid-row: 2/5;
+	background-image: url('https://imagesupload.net/images/iw7O.jpeg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.descripcion-container {
+	font-size: 2.5em;
+	margin: 3%;
+	border-radius: .9375rem;
+	background-color: black;
+	color: white;
+	grid-column: 2/3;
+	grid-row: 1/4;
+	padding-left: .9375rem;
+	padding-right: .9375rem;
+	padding-top: .3125rem;
+	
+}
+
+.opciones-container {
+	margin: 3%;
+	border-radius: .9375rem;
+	border: .25rem solid black;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: black;
+}
+
+.opcion-uno,
+.opcion-dos,
+.opcion-tres,
+.opcion-cuatro {
+	text-decoration: none !important;
+	font-size: 2.1875rem;
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.opcion-uno-p,
+.opcion-dos-p,
+.opcion-tres-p,
+.opcion-cuatro-p {
+	text-decoration: none !important;
+	color: white;
+	margin-top: -0.4375rem;
+	height: inherit;
+	align-self: center;
+	justify-self: center;
+}
+
+.opcion-uno:hover,
+.opcion-dos:hover,
+.opcion-tres:hover,
+.opcion-cuatro:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.opcion-uno-p:hover,
+.opcion-dos-p:hover,
+.opcion-tres-p:hover,
+.opcion-cuatro-p:hover {
+	color: black;
+}
+
+.resume-link,
+.perita-link {
+	text-decoration: none;
+	color: white;
+	text-orientation: center;
+}
+
+.contact-container {
+	margin: 3%;
+	border-radius: .9375rem;
+	border: .25rem solid black;
+	grid-column: 2/3;
+	grid-row: 1/4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	background-color: black;
+	gap: 1.875rem;
+}
+
+.contact-uno-p,
+.contact-dos-p,
+.contact-tres-p,
+.contact-cuatro-p {
+	text-decoration: none !important;
+	color: white;
+	margin-top: -0.4375rem;
+	height: inherit;
+	align-self: center;
+	justify-self: center;
+}
+
+.contact-uno-p,
+.contact-dos-p,
+.contact-tres-p,
+.contact-cuatro-p {
+	text-decoration: none !important;
+	color: white;
+	margin-top: -0.4375rem;
+	font-size: 2.375rem;
+}
+
+.contact-uno-p:hover,
+.contact-tres-p:hover {
+	color: magenta;
+	cursor: pointer;
+}
+
+
+.contact-dos-p:hover,
+.contact-cuatro-p:hover {
+	color: cyan !important;
+	cursor: pointer;
+}
+
+.contact-question {
+	font-size: 2.5rem;
+	color: white;
+}

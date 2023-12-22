@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "8bitOperatorPlus-Bold";
+	src: url(../assets/fonts/8bitOperatorPlus-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Masaaki-Regular";
+	src: url(../assets/fonts/Masaaki-Regular.otf);
+}
+
+body {
+  margin: 0;
+  font-family: 'Masaaki-Regular', '8bitOperatorPlus-Bold', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
