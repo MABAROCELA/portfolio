@@ -27,7 +27,6 @@
 	grid-template-rows: 100%;
 	grid-template-columns: 70% 30%;
 	box-shadow: 5px 5px black;
-
 }
 
 .name {
@@ -74,7 +73,8 @@
 	grid-row: 2/5;
 	background-image: url('https://imagesupload.net/images/iw7O.jpeg');
 	background-position: center;
-	object-fit: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .descripcion-container {
@@ -88,7 +88,7 @@
 	padding-left: .9375rem;
 	padding-right: .9375rem;
 	padding-top: .3125rem;
-	
+
 }
 
 .opciones-container {
@@ -226,12 +226,54 @@
 
 }
 
-@media (max-width: 825px) {
+@media (min-width: 359px) and (max-width: 825px) {
+
+	.screen-container {
+		height: 40vh;
+		width: auto;
+		margin: .3125rem;
+		overflow: hidden;
+	}
+
+	.screen-background {
+		height: 100vh;
+		width: 80vw;
+		margin: 0;
+	}
+
+	.descripcion-container {
+		font-size: .75rem;
+
+
+	}
+
+	.foto-container {
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.name-and-date {
+	}
+
+	.name,
+	.date {
+		border-radius: .4688rem;
+	}
 
 	.date-p,
 	.name-p {
-
-		font-size: 1.25rem;
-
+		font-size: .75rem;
 	}
+
+	.opciones-container {
+		row-gap: .625rem
+	}
+
+	.opcion-uno,
+	.opcion-dos,
+	.opcion-tres,
+	.opcion-cuatro {
+		font-size: .75rem;
+	}
+
 }
