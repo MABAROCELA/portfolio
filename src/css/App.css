@@ -258,6 +258,8 @@
 	.name,
 	.date {
 		border-radius: .4688rem;
+		align-content: center;
+		justify-content: center;
 	}
 
 	.date-p,
@@ -282,6 +284,7 @@
 .contact-cuatro-p,
 .contact-question {
 	font-size: .75rem;
+	margin:0;
 }
 
 }
