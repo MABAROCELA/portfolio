@@ -252,21 +252,21 @@
 		background-repeat: no-repeat;
 	}
 
-	.name-and-date {
-	}
 
 	.name,
 	.date {
 		border-radius: .4688rem;
-		align-content: center;
+		align-items: center;
 		justify-content: center;
 	}
 
-	.date-p,
-	.name-p {
-		font-size: .75rem;
+	.date-p {
+		font-size: 14px;
+;
 	}
-
+	.name-p {
+		font-size: 14px;
+	}
 	.opciones-container {
 		row-gap: .625rem
 	}
@@ -278,13 +278,17 @@
 		font-size: .75rem;
 	}
 
+	.contact-container{
+		gap: .625rem;
+	}
+
 	.contact-uno-p,
-.contact-dos-p,
-.contact-tres-p,
-.contact-cuatro-p,
-.contact-question {
-	font-size: .75rem;
-	margin:0;
-}
+	.contact-dos-p,
+	.contact-tres-p,
+	.contact-cuatro-p,
+	.contact-question {
+		font-size: .75rem;
+		margin: 0;
+	}
 
 }
